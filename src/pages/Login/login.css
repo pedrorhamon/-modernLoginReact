@@ -4,17 +4,35 @@
     justify-content: center;
     height: 100vh;
     width: 100%;  
+    
+    background-color: #121214;
+  color: white;
 }
 
 .login-logo img{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
+
+}
+
+.login-right {
+    background-color: #29292E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
 
 }
 
 .login-right h1{
     font-family: 'Roboto Slab';
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .login-right h4{
